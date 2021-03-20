@@ -1,0 +1,39 @@
+{
+  "name": "tdd-learning",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "razzle start",
+    "build": "razzle build",
+    "test": "razzle test --env=jsdom",
+    "start:prod": "NODE_ENV=production node build/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/jest": "^26.0.21",
+    "@types/mini-css-extract-plugin": "0.9.0",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/webpack-dev-server": "3.11.0",
+    "@types/webpack-env": "^1.16.0",
+    "babel-preset-razzle": "^4.0.3",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "html-webpack-plugin": "5.2.0",
+    "mini-css-extract-plugin": "0.9.0",
+    "postcss": "8.2.4",
+    "prettier": "^2.2.1",
+    "razzle": "^4.0.3",
+    "razzle-dev-utils": "^4.0.3",
+    "typescript": "^4.2.3",
+    "webpack": "5.24.0",
+    "webpack-dev-server": "3.11.0"
+  }
+}
