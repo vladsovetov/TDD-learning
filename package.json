@@ -66,7 +66,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn test && yarn lint"
+      "pre-commit": "yarn test --no-watch && yarn lint"
     }
   }
 }
