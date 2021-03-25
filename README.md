@@ -13,3 +13,4 @@ Progressively will add new requirements for this application and will write it f
 - [ ] Check that submitted valid data stored in Redux store
 - [ ] Once the form has submitted, check that a thanks page is displayed to the user with a relevant thank you message (maybe add several types of thank you page, depends on some condition)
 - [ ] Check that valid data sending to API
+- [ ] next requirements...
