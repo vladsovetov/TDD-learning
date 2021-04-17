@@ -6,7 +6,7 @@ Progressively will add new requirements for this application and will write it f
 
 - [x] Create a login form with username, password and submit button
 - [x] Upon login form submit the submit button should be replaced with an animation
-- [ ] Add form validation before submitting
+- [x] Add form validation before submitting
 - [ ] Check form connection to Redux store
 - [ ] Disable Submit button until form values are not valid
 - [ ] Add default values to inputs and check if they correctly prefilled in the form
